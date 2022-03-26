@@ -1,5 +1,6 @@
 #!/bin/bash
 
-sudo apt install nodejs
+sudo apt update
+sudo apt install nodejs -y
 npm install
 npm start
